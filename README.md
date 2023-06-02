@@ -8,7 +8,7 @@ When running the K-Means algorithm, several parameters can be specified to fine-
 For GMM model covariance type is selected as full to cluster any kind of datasets (with complex shapes and orientations), init_params is selected as kmeans, after trial and error, because the model is performing well in this parameter compared to ‘random’, it may indicate the clusters are more and more circular shape, but analysis of other performance metrics are needed to confirm this. Interestingly with this method the performance metrics values are changing each time when running the code, as the kmean is got run with different centroids each time when we run the code. n_init is set to 1 as increase of this value is esulting in poor value for Davies Boulden score, one reason could be the algorithm may stuck in local optimum point.
 
 <p align="center">
-  <img src="">
+  <img src="https://github.com/Dharmendra04/wine-clustering/blob/main/Screenshot%202023-06-02%20at%2002.18.49.png">
   <br />
   <em>Figure 3: Flow chart of the work </em>
 </p>
