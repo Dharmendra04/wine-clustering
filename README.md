@@ -10,7 +10,7 @@ For GMM model covariance type is selected as full to cluster any kind of dataset
 <p align="center">
   <img src="https://github.com/Dharmendra04/wine-clustering/blob/main/Screenshot%202023-06-02%20at%2002.18.49.png">
   <br />
-  <em>Figure 3: Flow chart of the work </em>
+  <em>Figure1: Flow chart of the work </em>
 </p>
 
 
