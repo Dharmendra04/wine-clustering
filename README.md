@@ -17,6 +17,13 @@ For GMM model covariance type is selected as full to cluster any kind of dataset
 Cluster analysis is an unsupervised learning method (Bellier, 2012) to optimize an objective function based on features similarities. It appears that the k-means and GMM clustering approaches perform similarly. Both have a Calinski-Harabasz index (Baarsch & Celebi, 2012) of around 340, indicating that the models have a good balance of compact clusters and high separation between clusters. Both have a silhouette (Shutaywi & Kachouie, 2021) score of around 0.56, which is relatively low and suggests that the clusters are not very well-separated or that the data points within each cluster are not very similar to one another. And Both have a Davies-Bouldin score around 0.6, indicating that the clusters are not well separated or that the means of the clusters are very similar to each other.
 However, there are some key differences between the k-means and GMM clustering approaches. K-means is a centroid-based algorithm and assumes that the clusters have a spherical shape, and all clusters have the same variance and similar sizes. GMM, is a probability-based algorithm and the clusters are modelled as a mixture of Gaussian distributions. k-means algorithm is sensitive to the initialization of centroids while GMM is not sensitive to initialization of parameters.
 
+<p align="center">
+  <img src="https://github.com/Dharmendra04/wine-clustering/blob/main/Screenshot%202023-06-02%20at%2002.18.49.png">
+  <br />
+  <em>Figure 1: Flow chart of the work </em>
+</p>
+
+
 In general, these results suggest that neither k-means nor GMM are able to identify very distinct clusters in the data. It may be worthwhile to explore other clustering methods.
 The main limitation or drawback of the k-means and GMM clustering approaches seems to be that they are not able to identify very distinct clusters in the data. The Calinski-Harabasz index, silhouette score, and Davies-Bouldin score are all relatively low, which suggests that the clusters are not very well-separated or that the data points within each cluster are not very similar to one another.
 Some possible reasons for this include:
